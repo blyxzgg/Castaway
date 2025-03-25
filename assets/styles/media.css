@@ -1,0 +1,123 @@
+@media (max-width:1300px) {
+    .header__main{
+        padding: 60px;
+        gap: 45px;
+    }
+    .nav__content{
+        justify-content: space-between;
+    }
+    .header__main-content span{
+        font-weight: 400;
+        font-size: 55px;
+        max-width: 450px;
+    }
+    .episodes__card{
+        width: 992px;
+        height: 600px; 
+    }
+    .episodes__cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .episodes__glava h2{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .Jacob__content{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .Subscribe__content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 600px;
+        height: 600px;
+    }
+    .Reviews__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__content{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media (max-width:992px) {
+    .header__main{
+        display: flex;
+        flex-direction: column;
+    }
+    .header__main-content span{
+        font-weight: 400;
+        font-size: 70px;
+        max-width: 450px;
+    }
+    .episodes__card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 500px;
+        height: 1000px;
+    }
+    .episodes__card img{
+        max-width: 300px;
+        max-height: 300px;
+    }
+    .footer__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+}
+@media (max-width:768px) {
+    .Subscribe__content{
+        width: 540px;
+        height: 650px;
+    }
+    .header__main img{
+        width: 550px;
+    }
+    .chel3{
+        width: 540px;
+        height: 650px;
+    }
+}
+@media (max-width:576px) {
+    .Subscribe-form input{
+        width: 470px;
+        height: 82px;
+    }
+    .Subscribe__content{
+        width: 500px;
+        height: 650px;
+    }
+    .header__main img{
+        width: 510px;
+    }
+
+
+    .nav{
+        position: relative;
+    }
+    .nav__list{
+        position: absolute;
+        flex-direction: column;
+        background: #000;
+        top: 70%;
+        right: 0;
+        padding: 18px;
+        transform: scaleY(0);
+        transition: .5s;
+        transform-origin: top;
+    }
+    .nav__menu:hover .nav__list{
+        transform: scaleY(1);
+    }
+
+}
