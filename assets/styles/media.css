@@ -84,33 +84,62 @@
         width: 550px;
     }
     .chel3{
-        width: 540px;
-        height: 650px;
+        width: 550px;
+        height: auto;
     }
 }
 @media (max-width:576px) {
+    .header__main img{
+        width: 350px;
+        height: auto;
+        padding: 40px;
+    }
+    .chel3{
+        width: 390px;
+        height: auto;
+    }
+    .episodes__glava{
+        padding: 20px;
+    }
+    .episodes__card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 390px;
+        height: 1110px;
+    }
+    .menu__btn{
+        display: block;
+        background: white;
+        border-radius: 400px;
+    }
     .Subscribe-form input{
-        width: 470px;
+        width: 390px;
         height: 82px;
     }
     .Subscribe__content{
-        width: 500px;
-        height: 650px;
+        width: 410px;
+        height: auto;
     }
     .header__main img{
-        width: 510px;
+        width: 500px;
     }
-
-
     .nav{
         position: relative;
     }
+    .Jacob__content{
+        padding: 15px;
+    }
     .nav__list{
+        display: flex;
+        justify-content: space-evenly;
         position: absolute;
         flex-direction: column;
         background: #000;
         top: 70%;
         right: 0;
+        margin-right: 17px;
         padding: 18px;
         transform: scaleY(0);
         transition: .5s;
